@@ -1,0 +1,42 @@
+.container1 {
+  width: 600px;
+  height: 350px;
+  border: 1px solid blue;
+  margin: 12px 12px 12px 0;
+  background-color: rgb(249, 248, 163);
+}
+
+h3 {
+  background-color: aquamarine;
+  margin: 5px;
+}
+
+label {
+  margin: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+.lable-css {
+  width: 25%;
+  margin-top: 6px;
+  color: blue;
+}
+
+.lable-css1 {
+  width: 25%;
+  margin-top: 6px;
+  color: blue;
+}
+
+.input-css1 {
+  height: 50px;
+}
+
+#sub {
+  margin-left: 28%;
+  width: 13%;
+}
+.but {
+  width: 14%;
+}
+

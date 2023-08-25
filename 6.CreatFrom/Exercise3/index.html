@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <form action method="post">
+                <h2>Market Research Survey</h2>
+                <p>Please take a few moments to complete this satisfaction
+                    survey.</p>
+                <b for="age" class="css-b">
+                    What is your age range?
+                </b><br>
+                <select name="age" class="field-select">
+                    <option value="18-24" class="fielx-radio">18-24</option>
+                    <option value="25-34" class="fielx-radio">25-34</option>
+                    <option value="35-50" class="fielx-radio">5-50</option>
+                    <option value="50+" class="fielx-radio">50+</option>
+                </select><br>
+                <b for="age" class="css-b">
+                    What is your yearly incomerange?
+                </b><br>
+                <select name="age" class="field-select">
+                    <option value="$0-$25,00">$0-$25,00</option>
+                    <option value="$25,001-50,00">$25,001-50,00</option>
+                    <option value="$50,001-$100,000">$50,001-$100,000</option>
+                    <option value="$100,000+">$100,000+</option>
+                </select><br>
+                <b for="gender" class="css-b">Gender Identity</b><br>
+                <input name="male" type="radio" class="fielx-radio" value="male">Male
+                <br>
+                <input name="female" type="radio" class="fielx-radio"
+                    value="female">Female <br>
+                <input name="nonbinary" type="radio" class="fielx-radio"
+                    value="nonbinary">Nonbinary <br>
+                <input name="other" type="radio" class="fielx-radio"
+                    value="other">Other <br>
+                <input name="text" id="fielx-other"><br>
+                <label for="fielx-other" class="currently">Maximum of 250
+                    characters. </label> &nbsp;&nbsp;&nbsp;
+                <em>Currently Used: 0 characters.</em> <br>
+                <b class="css-b">Which of the following products have your
+                    purchased in the last 2 months. Please check all that apply.</b>
+                <br>
+                <input name="Product" type="checkbox" class="check-box"
+                    value="product">Product 1<br>
+                <input name="Product" type="checkbox" class="check-box"
+                    value="product">Product 1<br>
+                <input name="Product" type="checkbox" class="check-box"
+                    value="product">Product 1<br>
+                <b class="css-b">
+                    How often would you use our new product?
+                </b> <br>
+                <input name="Daily" type="radio" class="fielx-radio"
+                    value="Daily">Daily <br>
+                <input name="Weekly" type="radio" class="fielx-radio"
+                    value="Weekly">Weekly <br>
+                <input name="Monthly" type="radio" class="fielx-radio"
+                    value="Monthly">Monthly <br>
+                <b class="css-b">
+                    How often would you use our new product?
+                </b> <br>
+                $ <input name="dollar" type="text" id="dollar"> .
+                <input name="cents" type="text" id="cents"><br>
+                <!-- <label class="dollar">Dollar</label> <label for="cents">cents</label>  <br> -->
+                <b class="css-b">What features would you like to see in the new
+                    product.</b><br>
+                <textarea rows="4" cols="50"> </textarea><br>
+                <p>Please rate you level of agreement with the following
+                    statements.</p><br>
+                <table style="border-collapse: collapse;">
+                    <tr>
+                        <td colspan="3" class="layout-table"></td>
+                        <td class="">Strongly Disagree</td>
+                        <td class="box-edit">Disagree</td>
+                        <td class="box-edit">Agree</td>
+                        <td class="box-edit">Strongly Agree</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">our product are priced fairly</td>
+                        <td><input type="radio" name="radio1" value="html"><br><label
+                                for="radio">1</label></td>
+                        <td class="box-edit"><input type="radio" name="radio1" value="html"><br><label
+                                for="radio">2</label></td>
+                        <td class="box-edit"><input type="radio" name="radio1" value="html"><br><label
+                                for="radio">3</label></td>
+                        <td class="box-edit"><input type="radio" name="radio1" value="html"><br><label
+                                for="radio1">4</label></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">Our product are high quality</td>
+                        <td><input type="radio" name="radio1" value="html"><br><label
+                                for="radio">1</label></td>
+                        <td class="box-edit"><input type="radio" name="radio1" value="html"><br><label
+                                for="radio">2</label></td>
+                        <td class="box-edit"><input type="radio" name="radio1" value="html"><br><label
+                                for="radio">3</label></td>
+                        <td class="box-edit"><input type="radio" name="radio1" value="html"><br><label
+                                for="radio1">4</label></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">Your would recomment our product to a friend or coworker</td>
+                        <td><input type="radio" name="radio1" value="html"><br><label
+                                for="radio">1</label></td>
+                        <td class="box-edit"><input type="radio" name="radio1" value="html"><br><label
+                                for="radio">2</label></td>
+                        <td class="box-edit"><input type="radio" name="radio1" value="html"><br><label
+                                for="radio">3</label></td>
+                        <td class="box-edit"><input type="radio" name="radio1" value="html"><br><label
+                                for="radio1">4</label></td>
+                    </tr>
+                </table>
+
+                <input type="submit" name="sub" value="sub">
+
+            </form>
+        </div>
+    </body>
+</html>

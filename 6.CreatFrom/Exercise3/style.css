@@ -1,0 +1,54 @@
+
+h2 {
+    font-weight: normal;
+    font-size: 160%;
+    margin: 0 0 5px 0;
+    clear: left;
+}
+
+p {
+    font-size: 95%;
+    line-height: 135%;
+    color: #555;
+}
+
+.css-b {
+    line-height: 150%;
+    margin-top: 5px ;
+    margin-bottom: 5px ;
+    
+}
+
+.field-select{
+    width: 50%;
+    margin: 5px;
+    font-size: 120%;
+}
+
+.fielx-radio{
+    margin-top: 5px;
+}
+
+#fielx-other{
+    margin-left: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.dollar {
+    margin: 0 0 8px 25px    
+}
+
+table tr td { 
+    border: 1px solid #000000;
+    text-align: center;
+}
+
+td {
+    width: auto;
+}
+
+td.box-edit {
+    width: 116px; 
+    height: 18.4px;
+}
