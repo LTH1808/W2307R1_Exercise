@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  float: left;
+  padding: 0 6px;
+}
+
+.img-css {
+  border: 1px solid #ccc;
+}
+
+ img {
+  width: 100%;
+  height: auto;
+}
+
+.cmt {
+  text-align: center;
+  padding: 15px;
+}
+
+.footer {
+  padding: 6px;
+}
+
+main::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.img-css:hover {
+  border: 1px solid #333;
+}

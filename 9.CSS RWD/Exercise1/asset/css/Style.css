@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+header {
+  color: #889095;
+  background-color: #222222;
+  padding: 15px;
+}
+ul {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.nav > li {
+  display: inline;
+  padding : 15px;
+  text-align: center;
+  
+}
+
+.login {
+  float: right;
+}
+
+.login > a:hover {
+  background-color: #080808;
+  color: aliceblue;
+  padding:15px;
+}
+.login-icon {
+  text-decoration: none;
+  color: #889095;
+}
+
+.nav > li:hover {
+  background-color: #080808;
+  color: aliceblue;
+  padding: 15px;
+}
+
+.column-left {
+  float: left;
+  width: 25%;
+  height: 18.75rem;
+  text-align: center;
+  background-color: #f1f1f1;
+  padding-right: 10px;
+ 
+}
+
+.column-left > ul > li{
+    padding-top: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #5e98c8;
+  padding: 15px;
+}
+
+a:hover{
+  color: red;
+}
+
+.content {
+  float: left;
+  width: 47%;
+  margin: 0px 10px;
+}
+
+h1 {
+  padding: 15px 0px;    
+}
+
+.content > p {
+  padding-bottom: 15px;
+}
+
+.column-right{
+  float: right;
+  width: 25%;
+  height: 18.75rem;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+.column-right >ul > li {
+  padding-top: 20px ;
+}
+
+.box{
+  width: 7rem;
+  height: 4rem;
+  background-color: #f5f5f5;
+  border: 1px solid  #adadad;
+  border-radius: 5%;
+ 
+}
+
+.box > p {
+  line-height: 3.4rem;
+}
+
+
